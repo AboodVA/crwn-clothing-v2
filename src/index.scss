@@ -5,7 +5,29 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+
+  line-height: 0rem;
+  color: rgba(0, 0, 0, 0);
+  text-shadow: 0 0 rgb(0, 0, 0), 0rem 2rem #1095c1;
+
+  transition: all 0.3s;
+
+  overflow: hidden;
+
+  &:hover {
+    text-shadow: 0 -1.2em #000, 0 0 #1095c1;
+  }
 }
