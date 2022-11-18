@@ -3,9 +3,12 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 25px;
 
   .logo-container {
+    display: flex;
+    align-items: center;
     height: 100%;
     width: 100px;
     padding: 25px;
